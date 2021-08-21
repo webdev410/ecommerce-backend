@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
     attributes: ['id', 'category_name'],
     include: [{
       model: Product,
-      attributes:['id', 'product_name', 'price', 'stock', 'category_id']
+      attributes: ['id', 'product_name', 'price', 'stock', 'category_id']
     }]
   }).then((categories) => {
     res.json(categories);
@@ -18,8 +18,14 @@ router.get('/', (req, res) => {
 
 router.get('/:id', (req, res) => {
   // find one category by its `id` value
-  // ! be sure to include its associated Products
-  Category.findByPk(req.params.id).then((data) => {
+  Category.findByPk(req.params.id, {
+    attributes: ['id', 'category_name'],
+    include: [{
+      model: Product,
+      attributes: ['id', 'product_name', 'price', 'stock', 'category_id']
+    }]
+  }
+  ).then((data) => {
     res.json(data);
   });
 });
