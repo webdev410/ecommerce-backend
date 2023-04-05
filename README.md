@@ -1,9 +1,11 @@
 # eCommerce Backend
 
-![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
+bootcamp version
+![License](https://img.shields.io/badge/License-MIT-blue.svg 'License Badge')
 
 ## Description
-This is a CRUD application that can be used to interact with a database. The relational database includes products, categories and tags, all of which can be updated using Insomnia or a similar application. 
+
+This is a CRUD application that can be used to interact with a database. The relational database includes products, categories and tags, all of which can be updated using Insomnia or a similar application.
 
 ## Installation
 
@@ -19,13 +21,12 @@ Start application - `npm start`
 
 ## Technologies
 
-* [Node.JS](https://nodejs.org/en/docs/)
-* [mySQL2](https://www.npmjs.com/package/mysql2)
-* [ExpressJS](https://www.npmjs.com/package/express)
-* [Insomnia](https://www.npmjs.com/package/insomnia)
-* [Sequalize](https://sequelize.org/)
-* [dotenv](https://www.npmjs.com/package/dotenv)
-
+- [Node.JS](https://nodejs.org/en/docs/)
+- [mySQL2](https://www.npmjs.com/package/mysql2)
+- [ExpressJS](https://www.npmjs.com/package/express)
+- [Insomnia](https://www.npmjs.com/package/insomnia)
+- [Sequalize](https://sequelize.org/)
+- [dotenv](https://www.npmjs.com/package/dotenv)
 
 ## Links
 
